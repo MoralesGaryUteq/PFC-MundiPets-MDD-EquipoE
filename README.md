@@ -40,7 +40,6 @@ El documento recorre las tres capas del MDD (CIM → PIM → PSM) y describe las
 
 | Componente | Requisito | Uso |
 |---|---|---|
-| **JDK para ejecutar Modelio** | JDK 11 o superior instalado (no solo JRE) — confirmar la versión exacta usada, ya que Modelio la exige para arrancar | Ejecutar el propio Modelio 5.4 |
 | **JDK objetivo del código generado** | JDK 17 | Compilar y ejecutar el código generado |
 | **IntelliJ IDEA** | Ultimate 2026.2 | Abrir, compilar y ejecutar el proyecto Java generado |
 | **Modelio 5.4 Community + módulo Java Designer** | Instalado desde modelio.org / Modelio Marketplace | Modelado y generación de código |
@@ -48,7 +47,7 @@ El documento recorre las tres capas del MDD (CIM → PIM → PSM) y describe las
 | **Biber** | 2.19+ (incluido en TeX Live/MiKTeX) | Procesar `referencias.bib` |
 | **Git** | Cualquier versión reciente | Clonar el repositorio |
 
-**Sistema operativo probado:** [completar, ej. Windows 10/11 de 64 bits — indicar el SO real usado por el equipo].
+**Sistema operativo probado:** Windows 11 
 
 ## (v) Instrucciones reproducibles paso a paso
 
@@ -57,8 +56,8 @@ El documento recorre las tres capas del MDD (CIM → PIM → PSM) y describe las
 **1. Clonar el repositorio**
 
 ```bash
-git clone [URL_DEL_REPOSITORIO]
-cd [nombre-carpeta-repositorio]
+git clone https://github.com/MoralesGaryUteq/PFC-MundiPets-MDD-EquipoE.git
+cd PFC-MundiPets-MDD-EquipoE
 ```
 
 **2. Abrir el modelo en Modelio**
